@@ -6,4 +6,5 @@ const Artist = require('../models/artist');
  * @return {promise} A promise that resolves after the update
  */
 module.exports = (_ids) => {
+    //Artist.find({ _id: { $in: this.blogPosts }})
 };
